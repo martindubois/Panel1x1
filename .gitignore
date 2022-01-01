@@ -1,0 +1,7 @@
+
+# Author    KMS - Martin Dubois, P. Eng.
+# Copyright (C) 2021 KMS
+# Product   Panel1x1
+# File      .gitignore
+
+*.stl
