@@ -7,7 +7,7 @@
 
 use <../Hole.scad>
 
-Left();
+// Left();
 
 translate( [ 50, 0, 0 ] ) Right();
 
@@ -83,7 +83,7 @@ module Mount_Pos( aX )
 
 module Mount_Neg( aX )
 {
-    Hole_Z( aX, 20, - EPS, EPS + 15, 2 );
+    Hole_Thread_Z( aX, 20, - EPS, EPS + 15, 2 );
 }
 
 module Wall( aX )
